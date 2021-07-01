@@ -1,0 +1,20 @@
+touch:
+  description: "Touch a file on the PNF."
+  params:
+    filename:
+      description: "The name of the file to touch."
+      type: string
+      default: ""
+  required:
+  - filename
+
+    #start-opensand-emulation:
+    #description: "Start Opensand Emulation"      
+    #params:
+    #port-opensand-cmdserver:
+    #description: "Port to connect"
+    #type: string
+    #default: "5656"
+    #required:
+    #- port-opensand-cmdserver
+
