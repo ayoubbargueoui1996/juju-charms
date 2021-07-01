@@ -1,0 +1,24 @@
+"name": "layer-example"
+"summary": "A very basic example charm"
+"maintainer": "OGR Ubuntu <Ubuntu@microcloud>"
+"description": |
+  This is a charm I built as part of my beginner charming tutorial.
+"tags":
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+- "misc"
+- "tutorial"
+#subordinate: false
+#provides:
+#  provides-relation:
+#    interface: interface-name
+#requires:
+#  requires-relation:
+#    interface: interface-name
+#peers:
+#  peer-relation:
+#    interface: interface-name
+"requires":
+  "database":
+    "interface": "mysql"
+

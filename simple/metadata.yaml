@@ -1,0 +1,15 @@
+"name": "simple"
+"summary": "simple charm"
+"maintainer": "Olivier Gr\xE9millet <olivier.gremillet@irt-saintexupery.com>"
+"description": |
+  example simple charms
+"tags":
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+- "misc"
+- "osm"
+- "vnf"
+"series":
+- "xenial"
+- "trusty"
+"subordinate": !!bool "false"
